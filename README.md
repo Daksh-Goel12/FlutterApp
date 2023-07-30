@@ -14,5 +14,5 @@ The key goal is to make the app easy for users to navigate and understand. When 
 🔗 API Link: `http://universities.hipolabs.com/search?country=India`
 
 ## ScreenShots
-| <img src="https://github.com/Daksh-Goel12/flutter-app/assets/123328399/5a61fcb7-55df-4466-b327-d666346278ed" width="300"/> | <img src="https://github.com/Daksh-Goel12/flutter-app/assets/123328399/a7eebeb3-3030-4537-8def-5d1ba3c2874f" width="300" />
+| <img src="https://github.com/Daksh-Goel12/FlutterApp/assets/123328399/68c290d9-984f-4b5a-b3ae-765e44f28824" width="300"/> | <img src="https://github.com/Daksh-Goel12/FlutterApp/assets/123328399/0875fc81-8cc8-4f4e-95d5-646fdfb82b6f" width="300" />
 
