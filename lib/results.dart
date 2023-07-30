@@ -22,7 +22,6 @@ class _MyResultState extends State<MyResult> {
 
   @override
   void initState() {
-    // print("result page open");
     country=MyHome.country;
     getData();
     // TODO: implement initState
@@ -33,7 +32,6 @@ class _MyResultState extends State<MyResult> {
     var url = Uri.parse('http://universities.hipolabs.com/search?country=$country');
     var response = await http.get(url);
     
-    // print(response.body);
     if(response.statusCode == 200){
       decode = jsonDecode(response.body);
 
@@ -44,7 +42,7 @@ class _MyResultState extends State<MyResult> {
     else{
       print('404 Error Not Found');
     }
-    // print(decode);
+
   }
 
   @override
@@ -75,14 +73,14 @@ class _MyResultState extends State<MyResult> {
             child: Container(
               child: Card(
                 color: Color.fromRGBO(254, 255, 255, 0.8),
-                // color: Colors.transparent,
+                
                 child: Container(
                   margin: EdgeInsets.only(top: 10,right: 20, left: 20,),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
-                        // color: Colors.white,
+                        
                         child: ImageIcon(AssetImage("assets/img.png"),),
                       ),
                       SizedBox(
@@ -119,14 +117,14 @@ class _MyResultState extends State<MyResult> {
                                   style: TextStyle(
                                       fontSize: 15,
                                       color: Color.fromARGB(255, 8, 31, 180),
-                                      // color: Colors.,
+                                      
                                       decoration: TextDecoration.underline),
                                 ),
                               ),
                           ],
                         ),
                       ),
-                      // ImageIcon(AssetImage("assets/img.png"),),
+            
                     ],
                   ),
                 ),
